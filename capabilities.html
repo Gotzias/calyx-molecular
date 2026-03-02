@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Calyx Molecular | Capabilities</title>
+  <meta name="description" content="Technical capabilities of Calyx Molecular in free-energy molecular simulation and Horizon consortium integration." />
+  <style>
+    :root{
+      --bg:#0b0f14;
+      --panel:#0f1620;
+      --text:#e7edf5;
+      --muted:#a9b6c6;
+      --line:rgba(231,237,245,0.12);
+      --accent:#7dd3fc;
+    }
+    *{ box-sizing:border-box; }
+    body{
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+      color:var(--text);
+      background: var(--bg);
+      line-height:1.55;
+    }
+    a{ color:inherit; text-decoration:none; }
+    .wrap{
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 28px 18px 80px;
+    }
+    header{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      margin-bottom:40px;
+    }
+    .brand{
+      font-weight:600;
+      letter-spacing:0.2px;
+    }
+    nav{
+      display:flex;
+      gap:16px;
+      font-size:14px;
+      color:var(--muted);
+    }
+    nav a:hover{ color:var(--text); }
+
+    h1{
+      font-size:34px;
+      margin-bottom:10px;
+    }
+    .intro{
+      color:var(--muted);
+      max-width:70ch;
+      margin-bottom:40px;
+    }
+
+    section{
+      margin-bottom:50px;
+      padding-bottom:30px;
+      border-bottom:1px solid var(--line);
+    }
+
+    h2{
+      font-size:18px;
+      margin-bottom:14px;
+      letter-spacing:0.04em;
+    }
+
+    ul{
+      padding-left:20px;
+      margin:0;
+    }
+    li{ margin:8px 0; }
+
+    .block{
+      background:rgba(15,22,32,0.6);
+      padding:20px;
+      border-radius:14px;
+      border:1px solid var(--line);
+      margin-top:14px;
+    }
+
+    .muted{ color:var(--muted); }
+
+    footer{
+      margin-top:60px;
+      color:var(--muted);
+      font-size:13px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+
+    <header>
+      <div class="brand">Calyx Molecular</div>
+      <nav>
+        <a href="/">Home</a>
+        <a href="/capabilities.html">Capabilities</a>
+      </nav>
+    </header>
+
+    <h1>Technical Capabilities</h1>
+    <p class="intro">
+      Calyx Molecular provides free-energy–based molecular simulation workflows
+      designed for structured integration into Horizon Europe consortia,
+      particularly in materials discovery, separations, and digital twin architectures.
+    </p>
+
+    <section>
+      <h2>1. Adsorption & Interfacial Thermodynamics</h2>
+      <div class="block">
+        <ul>
+          <li>Standard-state adsorption free energy (ΔG<sub>ads</sub>) calculations</li>
+          <li>Curvature-dependent adsorption on graphitic and porous systems</li>
+          <li>Charge-state dependent binding (ionizable compounds)</li>
+          <li>Orientation-resolved adsorption landscapes (ΔG(s,θ))</li>
+          <li>Confinement-driven selectivity in nanoporous materials</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>2. Simulation Methodology</h2>
+      <div class="block">
+        <ul>
+          <li>Molecular Dynamics (MD) simulations in aqueous and gas environments</li>
+          <li>Grand Canonical Monte Carlo (GCMC) for adsorption isotherms</li>
+          <li>Umbrella Sampling and Potential of Mean Force (PMF)</li>
+          <li>MBAR / WHAM reweighting for rigorous free-energy reconstruction</li>
+          <li>Thermodynamic integration and statistical mechanical analysis</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>3. Decision Metrics Delivered to Consortia</h2>
+      <div class="block">
+        <ul>
+          <li>Material screening and ranking matrices</li>
+          <li>Selectivity and partition coefficients</li>
+          <li>Capacity and adsorption site classification</li>
+          <li>Regeneration and stability indicators</li>
+          <li>Physics-informed descriptors for AI surrogate models</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>4. Typical Horizon Role</h2>
+      <div class="block">
+        <ul>
+          <li>WP2–WP3 simulation and descriptor generation</li>
+          <li>Digital twin building block for material screening</li>
+          <li>Integration with experimental WP validation loops</li>
+          <li>Physics-grounded dataset production for AI partners</li>
+        </ul>
+      </div>
+      <p class="muted" style="margin-top:14px;">
+        Calyx Molecular does not replace experimental development; it reduces uncertainty before prototyping.
+      </p>
+    </section>
+
+    <footer>
+      © <script>document.write(new Date().getFullYear())</script> Calyx Molecular · Athens, Greece
+    </footer>
+
+  </div>
+</body>
+</html>
